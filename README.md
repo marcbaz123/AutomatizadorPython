@@ -40,14 +40,14 @@ columna_catraca = "CI"
 
 Configurar archivo de referencia con nombres correctos:
 
-```excel_referencia = r"FICHERO_EXCEL_DE_REFERENCIA.xlsx"
+excel_referencia = r"FICHERO_EXCEL_DE_REFERENCIA.xlsx"
 columna_backup = "nombre_apellido"
 columna_catraca_referencia = "numero_catraca"
 
 
 Configurar login del sistema:
 
-```url_login = "URL_DEL_LOGIN"
+url_login = "URL_DEL_LOGIN"
 usuario = "TU_USUARIO"
 contrasena = "TU_CONTRASEÑA"
 url_planificacion = "URL_DE_CARGA_DE_DATOS"
@@ -73,7 +73,7 @@ Guardar los resultados en un Excel llamado:
 Mostrando si cada alumno fue inscrito, no inscrito o tuvo error.
 
 🔹 Estructura de archivos recomendada
-```AutomatizadorPython/
+AutomatizadorPython/
 │
 ├─ student-enrollment-automation.py
 ├─ datos.xlsx               # Archivo principal con alumnos
