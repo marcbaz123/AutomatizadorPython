@@ -35,14 +35,14 @@ Renombrar tu archivo Excel de datos y la hoja a usar:
 ```excel_file = r"FICHERO_EXCEL_CON_DATOS.xlsx"
 nome_hoja = "NOMBRE_HOJA"
 columna_nombres = "NOMBRE Y APELLIDO"
-columna_catraca = "CI"```
+columna_catraca = "CI"
 
 
 Configurar archivo de referencia con nombres correctos:
 
 ```excel_referencia = r"FICHERO_EXCEL_DE_REFERENCIA.xlsx"
 columna_backup = "nombre_apellido"
-columna_catraca_referencia = "numero_catraca"```
+columna_catraca_referencia = "numero_catraca"
 
 
 Configurar login del sistema:
@@ -50,11 +50,7 @@ Configurar login del sistema:
 ```url_login = "URL_DEL_LOGIN"
 usuario = "TU_USUARIO"
 contrasena = "TU_CONTRASEÑA"
-url_planificacion = "URL_DE_CARGA_DE_DATOS"```
-
-🔹 Uso
-
-Ejecutar el script desde terminal o IDE:
+url_planificacion = "URL_DE_CARGA_DE_DATOS"
 
 python student-enrollment-automation.py
 
@@ -82,7 +78,7 @@ Mostrando si cada alumno fue inscrito, no inscrito o tuvo error.
 ├─ student-enrollment-automation.py
 ├─ datos.xlsx               # Archivo principal con alumnos
 ├─ referencia.xlsx          # Archivo con nombres correctos
-└─ README.md```
+└─ README.md
 
 🔹 Notas importantes
 
